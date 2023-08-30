@@ -25,7 +25,7 @@ public class InetAddressTest {
 		
 		System.out.print("로컬의 IP주소 :");
 		System.out.println(addr2.getHostAddress());
-		
+		in.close();
 
 	}
 
