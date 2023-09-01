@@ -13,7 +13,7 @@ ThirdPage.jsp : <br>
 하나의 요청 속성 : <%= request.getAttribute("name") %><br>
 하나의 세션 속성 : <%= session.getAttribute("name") %><br>
 하나의 애플리케이션 속성 : <%= application.getAttribute("name") %><br>
-<% request.getRequestDispatcher("08_secondPage.jsp").forward(request, response); %>
+<% request.getRequestDispatcher("08_secoundPage.jsp").forward(request, response); %>
 
 </body>
 </html>
