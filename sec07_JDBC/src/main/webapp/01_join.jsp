@@ -37,7 +37,7 @@ border: 1px solid black;
 		<label for="phone"> 전화번호 </label>
 		<input type="tel" id="phone" name="phone"required><br>
 		
-		<label for="adimn"> 회원등급</label>
+		<label for="admin"> 회원등급</label>
 		<input type="radio" name="admin" value="1">관리자 
 		<input type="radio" name="admin" value="0">일반회원 
 		</div>
