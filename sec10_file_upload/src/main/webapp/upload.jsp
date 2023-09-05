@@ -56,7 +56,7 @@ input[type="submit""], input[type="file"]{
 			<div class="text-container">
 				<span>파일 :</span> <input type="file" name="uploadFile">
 			</div>
-			<div class="text-container">
+			<div class="button-container">
 				<input class="submit-button" type="submit" value="전송">
 			</div>
 		</form>
