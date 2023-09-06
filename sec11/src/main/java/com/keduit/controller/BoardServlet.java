@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 import com.keduit.controller.action.Action;
 
 
-@WebServlet("/BoderSevlet")
-public class BoardSevlet extends HttpServlet {
+@WebServlet("/BoardServlet")
+public class BoardServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 
@@ -22,6 +22,7 @@ public class BoardSevlet extends HttpServlet {
 		ActionFactory actionFactory = ActionFactory.getInstance();
 		Action action = actionFactory.getAction(command);
 		
+		
 		if (action != null) {
 			action.execute(request, response);
 		}
@@ -30,6 +31,7 @@ public class BoardSevlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
+		doGet(request, response);
 	}
 
 }

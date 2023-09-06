@@ -1,0 +1,50 @@
+/* Table style */
+
+h1 {
+    text-align: center;
+}
+
+.board-view {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.board-view th,
+.board-view td {
+    border: 1px solid #007BFF; /* Using blue color for border */
+    padding: 8px;
+}
+
+.board-view th {
+    background-color: #007BFF; /* Using blue color for header background */
+    color: white;
+}
+
+/* Button style */
+a {
+    text-decoration: none;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-container a {
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #007BFF; /* Using blue color for button background */
+}
+
+.btn-container a:last-child {
+    margin-right: 0;
+}
+
+.btn-container a:hover {
+    background-color: #0056b3; /* A slightly darker blue for hover effect */
+}
